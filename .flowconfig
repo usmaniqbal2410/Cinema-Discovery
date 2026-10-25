@@ -1,0 +1,21 @@
+[ignore]
+
+[include]
+
+[libs]
+
+[lints]
+
+[options]
+module.name_mapper='^\([^\.].*\)$' -> '<PROJECT_ROOT>/src/\1'
+module.file_ext=.js
+module.file_ext=.jsx
+module.file_ext=.mjs
+module.file_ext=.json
+esproposal.optional_chaining=enable
+exact_by_default=true
+
+[strict]
+
+[untyped]
+.*/node_modules/*
